@@ -34,10 +34,10 @@ function App() {
 
     return (
         <div className="App">
-            <Todolist title = {"What is learn"}
-                      tasks = {tasksForTodolist}
-                      removeTask = {removeTask}
-                      changeFilter = {changeFilter}
+            <Todolist title={"What is learn"}
+                      tasks={tasksForTodolist}
+                      removeTask={removeTask}
+                      changeFilter={changeFilter}
             />
         </div>
     );
