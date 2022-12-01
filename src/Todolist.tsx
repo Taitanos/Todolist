@@ -49,9 +49,6 @@ const Todolist = (props: PropsType) => {
         props.changeFilter("completed")
     }
 
-
-
-
     return <div>
         <h3>{props.title}</h3>
         <div>
