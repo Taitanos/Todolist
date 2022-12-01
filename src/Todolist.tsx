@@ -1,6 +1,5 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from "react";
 import {FilterValuesType} from "./App";
-import {log} from "util";
 
 
 type TaskType = {
@@ -49,6 +48,10 @@ const Todolist = (props: PropsType) => {
     const onCompletedClickHandler = () => {
         props.changeFilter("completed")
     }
+
+
+
+
     return <div>
         <h3>{props.title}</h3>
         <div>
